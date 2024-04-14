@@ -1,0 +1,108 @@
+body{
+    background-image: url(photo-1551509134-2f9d4ec80a9b.jpeg);
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    
+    
+}
+.log{
+    background-color: rgb(255, 255, 255,0.1);
+    height: 50%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+    
+    
+
+}
+input{
+    
+    background-color: rgba(0, 0, 58, 0.322) ;
+    color: white;
+    margin: 10px;
+    padding: 18px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    
+    
+}
+.submit{
+    padding: 10px;
+    width: 100px;
+
+}
+.submit:hover{
+    background-color: rgb(1, 1, 43);  
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    border-bottom:2px solid white;
+    width: 100vw;
+    overflow: hidden;
+    white-space: wrap;
+   text-align: center;
+    
+}
+
+.data{
+    width: 50%;
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin: auto;
+    
+    flex-direction: column;
+   
+    color: white;
+    
+
+   
+}
+
+h1{
+      font-size: 50px;
+      font-weight: 900;
+      padding: 0;
+      translate: 0 30px;
+      letter-spacing: 1px;
+}
+p{
+    padding: 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    
+}
+.cr:hover{
+background-color: rgb(1, 1, 43);  
+}
+@media (min-width:600px) and (max-width:1000px){
+    .log{
+        width: 300px;
+      
+        
+    }
+
+}
+@media (max-width:600px){
+    .log{
+        width: 215px;
+    }
+  
+
+    
+    
+
+   
+}
